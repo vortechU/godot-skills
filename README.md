@@ -17,13 +17,14 @@ A set of skills for building games in **Godot 4.x (latest — currently 4.7)** w
 
 ```bash
 # one skill
-npx skills add <owner>/godot-skills@godot-ui
+npx skills add vortechU/godot-skills@godot-ui
 
-# or all of them
-npx skills add <owner>/godot-skills --skill '*'
-# (most agents support `@skill` per-skill install; for agents that install
-#  the whole package, use --skill godot-* )
+# all skills
+npx skills add vortechU/godot-skills --skill '*'
 ```
+
+You can also install from the git URL: `npx skills add https://github.com/vortechU/godot-skills`
+
 
 ## Usage
 The skills are written so that an agent loads them automatically when you ask something Godot-related. `godot-index` is the catch-all entry point.
